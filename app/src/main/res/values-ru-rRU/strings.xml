@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лаба5 База Данных</string>
+    <string name="totalRecords">Всего записей:</string>
+    <string name="zero">0</string>
+    <string name="foundRecords">Найдено записей:</string>
+    <string name="nameOrSurname">Имя или фамилия</string>
+    <string name="addRecord">Добавить запись</string>
+    <string name="cancel">Отменить</string>
+    <string name="save">Сохранить</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+
+</resources>

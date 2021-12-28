@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab5Database</string>
+    <string name="totalRecords">Total records:</string>
+    <string name="zero">0</string>
+    <string name="foundRecords">Found records:</string>
+    <string name="nameOrSurname">Name or surname</string>
+    <string name="addRecord">Add record</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+</resources>
