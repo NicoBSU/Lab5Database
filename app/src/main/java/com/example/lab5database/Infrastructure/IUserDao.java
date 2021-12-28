@@ -15,7 +15,7 @@ import java.util.List;
 public interface IUserDao {
     //get all users
     @Query("SELECT * FROM userRecords")
-    List<UserRecord> getAllRecords();
+    LiveData<List<UserRecord>> getAllRecords();
 
     //insert one user
     @Insert(onConflict = OnConflictStrategy.REPLACE)

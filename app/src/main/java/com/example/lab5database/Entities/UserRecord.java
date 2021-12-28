@@ -6,14 +6,12 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity (tableName = "userRecords")
+@Entity (tableName = "userRecords", primaryKeys = {"name", "surname"})
 public class UserRecord {
-    @PrimaryKey
     @ColumnInfo(name="name")
     @NonNull
     public String name;
 
-    @PrimaryKey
     @ColumnInfo(name="surname")
     @NonNull
     public String surname;
